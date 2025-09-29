@@ -1,0 +1,164 @@
+/* *{
+  margin: 0px;
+  padding: 0px;
+} */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: white;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: whitesmoke;
+  padding: 10px 30px;
+  margin-bottom: 60px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+/* .h7 {
+  margin: 0px;
+  padding: 0px;
+  width: 1390px;
+  margin-left: -8px;
+  margin-top: -60px;
+  border: 1px solid black;
+} */
+
+header h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #c80fbc;
+  margin: 0;
+}
+
+#input {
+  margin-left: 50px;
+  align-items: center;
+  width: 700px;
+  height: 25px;
+  border-radius: 15px;
+  border: -1px;
+  border: 1px solid black;
+}
+
+#input {
+  padding-left: 30px;
+}
+
+.search-icon {
+  position: absolute;
+  margin-left: 150px;
+}
+
+nav {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+}
+
+nav a {
+  text-align: right;
+  text-decoration: none;
+  color: #4a4a4a;
+  margin: 0 6px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #990fc8;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: -50px;
+  /* margin-bottom: -23px; */
+  margin-top: -50px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+
+}
+
+.hero h4 {
+  padding: 8px;
+  color: white;
+  background-color: #990fc8;
+  border: 1px solid #990fc8;
+  border-radius: 70px;
+}
+
+
+
+/* #h2 {
+  width: 1390px;
+  margin-left: -8px;
+  border: 1px solid black;
+
+} */
+
+.img1 {
+  width: 100%;
+  /* height: 800px; */
+  /* margin-top: -7px; */
+
+}
+
+.course-container {
+  display: flex;
+  gap: 90px;
+  
+}
+
+.course-card {
+  width: 250px;
+  /* display: flex; */
+  
+}
+
+.course-card img {
+  width: 300px;
+  height: 150px;
+  padding: 6px;
+  object-fit: cover;
+
+}
+
+.course-card h4 {
+  padding-left: 8px;
+  margin-top: -6px;
+}
+
+.course-card p {
+  padding-left: 8px;
+  margin-top: -15px;
+  line-height: 18px;
+}
+
+
+
+.container1{
+  display: flex;
+  gap: 10px;
+}
+.container2{
+  display: flex;
+  gap: 10px;
+}
+.container3{
+  display: flex;
+  gap: 10px;
+}
+.table{
+  border: 2px solid black;
+  width: 1000px;
+  height: 25px; 
+  padding-left: 10px;
+  padding-top: 10px;
+}
